@@ -32,7 +32,7 @@ class Snake(tk.Canvas):
             self.snake_body_image = Image.open("Your/address/snake.png")
             self.snake_body = ImageTk.PhotoImage(self.snake_body_image)
 
-            self.food_image = Image.open("C:/Users/Z006VR64/Downloads/food.png")
+            self.food_image = Image.open("Your/address/food.png")
             self.food = ImageTk.PhotoImage(self.food_image)
 
         except IOError as error:
