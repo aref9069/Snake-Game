@@ -29,7 +29,7 @@ class Snake(tk.Canvas):
     def load_assets(self):
         try:
 
-            self.snake_body_image = Image.open("C:/Users/Z006VR64/Downloads/snake.png")
+            self.snake_body_image = Image.open("Your/address/snake.png")
             self.snake_body = ImageTk.PhotoImage(self.snake_body_image)
 
             self.food_image = Image.open("C:/Users/Z006VR64/Downloads/food.png")
